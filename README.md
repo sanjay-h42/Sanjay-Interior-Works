@@ -1,32 +1,29 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Sanjay Interior Works
+**Every Space. A Masterpiece.
+Crafting beauty into every corner.
 
-Currently, two official plugins are available:
+Sanjay Interior Works provides thoughtfully crafted interior solutions for residential and commercial spaces. We focus on practical designs, elegant finishes, durable materials, and quality workmanship to make every space feel special.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Our Services
+**- Custom Cupboard Works – Customised cupboard solutions designed to make the best use of your space.
+- PVC Doors & Solutions – Durable and practical PVC door and interior solutions.
+- WPVC Doors – Modern door solutions to suit different spaces and requirements.
+- Aluminium Works – Aluminium fabrication and design solutions.
+- Netlon Mesh & Insect Protection – Netlon installations and mesh systems to help protect interiors from insects.
+  
+**About the Website
+**This repository contains the website for Sanjay Interior Works. The website is designed to introduce the business, showcase its services and completed work, and help visitors get in touch.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+**Website Sections
+**- Home – Introduction to Sanjay Interior Works and its services.
+- Services – Overview of cupboard, PVC, WPVC, aluminium, and Netlon work.
+- Our Works – Portfolio area for showcasing completed projects.
+- About – Business information.
+- Contact – Enquiry and contact information.
+  
+**Business Information
+**- Business name: Sanjay Interior Works
+- Proprietor: V. Vijay Pandiyan
+- Service focus: PVC doors, PVC cupboards, WPVC doors, aluminium works, and Netlon mesh installations
+- Workspaces served: Residential and commercial spaces
