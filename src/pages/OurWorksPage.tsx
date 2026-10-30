@@ -4,7 +4,7 @@ import { PageHeader } from '../components/PageHeader';
 import { GalleryGrid } from '../components/GalleryGrid';
 import { WORK_CATEGORIES, getProjectsByCategory } from '../data/works';
 import { WorkCategory } from '../types';
-import { Sparkles, ShieldCheck } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 
 export const OurWorksPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -46,12 +46,12 @@ export const OurWorksPage: React.FC = () => {
       />
 
       {/* Authenticity Pledge Callout */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="p-4 sm:p-5 rounded-2xl bg-white border border-sand/50 shadow-soft flex items-center gap-3.5">
-          <div className="w-10 h-10 rounded-xl bg-ivory text-walnut flex items-center justify-center flex-shrink-0 border border-sand/40">
-            <ShieldCheck className="w-5 h-5 text-gold" />
+      <div className="max-w-7xl mx-auto px-3.5 xs:px-4 sm:px-6 lg:px-8">
+        <div className="p-4 sm:p-5 rounded-2xl bg-white border border-sand/50 shadow-soft flex items-center gap-3 sm:gap-3.5">
+          <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-ivory text-walnut flex items-center justify-center flex-shrink-0 border border-sand/40">
+            <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 text-gold" />
           </div>
-          <div className="text-xs sm:text-sm text-charcoal-muted leading-relaxed">
+          <div className="text-xs sm:text-sm text-charcoal-muted leading-relaxed min-w-0">
             <strong className="text-charcoal font-semibold">Strict Authenticity Guarantee:</strong>{' '}
             We do not use stock, AI-generated, or third-party web photos. All displayed project imagery is authentic work documented from our completed installations.
           </div>
@@ -59,7 +59,7 @@ export const OurWorksPage: React.FC = () => {
       </div>
 
       {/* Gallery Grid with Category Filters */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="max-w-7xl mx-auto px-3.5 xs:px-4 sm:px-6 lg:px-8">
         <GalleryGrid
           projects={projects}
           activeCategory={activeCategory}

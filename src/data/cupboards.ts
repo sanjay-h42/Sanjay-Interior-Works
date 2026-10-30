@@ -39,9 +39,10 @@ export const CUPBOARD_CATEGORIES: CupboardCategoryItem[] = [
     slug: 'upvc',
     route: '/cupboard-works/upvc',
     workCategory: 'cupboards-upvc',
-    shortDesc: 'Zero-maintenance, termite-proof, and 100% moisture-resistant cupboards engineered for longevity and clean utility.',
-    fullDesc: 'UPVC cupboard systems represent the ideal fusion of durability, hygiene, and modern functional design. Engineered with high-strength unplasticized polymer profiles, UPVC cupboards are impervious to termites, water seepage, and rust, making them ideal for high-utility homes.',
+    shortDesc: 'Zero-maintenance, termite-proof, and 100% moisture-resistant cupboards engineered for longevity and clean utility. PVC and UPVC cupboard price starts from ₹250 to ₹500.',
+    fullDesc: 'UPVC cupboard systems represent the ideal fusion of durability, hygiene, and modern functional design. Engineered with high-strength unplasticized polymer profiles, UPVC cupboards are impervious to termites, water seepage, and rust, making them ideal for high-utility homes. PVC and UPVC cupboard price starts from ₹250 to ₹500.',
     characteristics: [
+      'PVC and UPVC cupboard price starts from ₹250 to ₹500',
       '100% waterproof and termite proof construction',
       'Will not warp, rust, or corrode over time',
       'Extremely easy to clean with standard household detergents',

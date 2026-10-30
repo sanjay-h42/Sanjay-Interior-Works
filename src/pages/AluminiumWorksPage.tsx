@@ -2,7 +2,7 @@ import React from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { GalleryGrid } from '../components/GalleryGrid';
 import { getProjectsByCategory } from '../data/works';
-import { Columns3, Shield, CheckCircle2 } from 'lucide-react';
+// projects data loaded below
 
 export const AluminiumWorksPage: React.FC = () => {
   const projects = getProjectsByCategory('aluminium');
@@ -17,17 +17,17 @@ export const AluminiumWorksPage: React.FC = () => {
         description="Precision aluminium fabrications engineered for smooth operation, structural stability, and sleek architectural lines. Ideal for sliding windows, office partitions, balcony enclosures, and custom architectural frameworks."
       />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="max-w-7xl mx-auto px-3.5 xs:px-4 sm:px-6 lg:px-8">
         {/* Features Card */}
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-sand/40 shadow-soft mb-10">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 border border-sand/40 shadow-soft mb-8 sm:mb-10">
           <h2 className="text-xl sm:text-2xl font-serif font-bold text-walnut mb-3">
             Architectural Precision & Clean Lines
           </h2>
-          <p className="text-sm text-charcoal-muted leading-relaxed mb-6">
+          <p className="text-xs xs:text-sm text-charcoal-muted leading-relaxed mb-6">
             Aluminium provides a strong, lightweight structural profile that resists rust and outdoor weather variations while offering minimalist sightlines for modern interiors.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             <div className="p-4 rounded-2xl bg-ivory/50 border border-sand/30">
               <span className="font-semibold text-xs text-walnut uppercase tracking-wider block mb-1">Sliding Windows</span>
               <p className="text-xs text-charcoal-muted">Smooth rolling tracks with durable bearings and locking latches.</p>

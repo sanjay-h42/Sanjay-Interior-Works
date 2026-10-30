@@ -40,7 +40,7 @@ export const BRAND_CONFIG: BrandConfig = {
   contact: {
     phone: '9943786284',
     phone2: '7502267686',
-    whatsappNumber: '918610150895',
+    whatsappNumber: '917639510570',
     email: '',
     address: '',
     city: '',

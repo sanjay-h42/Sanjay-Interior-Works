@@ -17,17 +17,17 @@ export const NetlonWorksPage: React.FC = () => {
         description="Effective mosquito and insect screen mesh installations that preserve natural fresh airflow and daylight. Tailored for residential windows, ventilators, balconies, and doors using durable framing and neat border fixtures."
       />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="max-w-7xl mx-auto px-3.5 xs:px-4 sm:px-6 lg:px-8">
         {/* Features Card */}
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-sand/40 shadow-soft mb-10">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 border border-sand/40 shadow-soft mb-8 sm:mb-10">
           <h2 className="text-xl sm:text-2xl font-serif font-bold text-walnut mb-3">
             Fresh Air Without Insects
           </h2>
-          <p className="text-sm text-charcoal-muted leading-relaxed mb-6">
+          <p className="text-xs xs:text-sm text-charcoal-muted leading-relaxed mb-6">
             Netlon mesh systems are installed with precision to sit neatly along window reveals, providing dependable protection while maintaining room visibility and ventilation.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             <div className="p-4 rounded-2xl bg-ivory/50 border border-sand/30 flex items-start gap-3">
               <Wind className="w-5 h-5 text-walnut flex-shrink-0 mt-0.5" />
               <div>

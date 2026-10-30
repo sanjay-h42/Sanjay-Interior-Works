@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
+import { MobileBottomNav } from './components/MobileBottomNav';
 import { ScrollToTop } from './components/ScrollToTop';
 
 import { HomePage } from './pages/HomePage';
@@ -24,7 +25,7 @@ export const App: React.FC = () => {
     <div className="flex flex-col min-h-screen bg-ivory text-charcoal font-sans">
       <ScrollToTop />
       <Header />
-      <main className="flex-1">
+      <main className="flex-1 pb-16 md:pb-0">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<ServicesPage />} />
@@ -44,6 +45,7 @@ export const App: React.FC = () => {
         </Routes>
       </main>
       <Footer />
+      <MobileBottomNav />
     </div>
   );
 };

@@ -21,23 +21,23 @@ export const WPVCDoorWorksPage: React.FC = () => {
         description="Engineered with high-density Wood Polymer Composite (WPVC / WPC), our designer doors combine the solid heft, acoustic insulation, and rich grain of authentic timber with 100% waterproof and termite-proof longevity for bedrooms, pooja rooms, and premium entries."
       />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="max-w-7xl mx-auto px-3.5 xs:px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         {/* Core Benefits */}
-        <div className="bg-white rounded-3xl p-6 sm:p-10 border border-sand/40 shadow-soft">
-          <div className="max-w-3xl mb-8">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-10 border border-sand/40 shadow-soft">
+          <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="text-xs font-mono uppercase tracking-widest text-walnut font-semibold block mb-2">
               Next-Generation Door Technology
             </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-charcoal mb-3">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-serif font-bold text-charcoal mb-3">
               Why Choose WPVC Doors Over Standard Doors?
             </h2>
-            <p className="text-sm sm:text-base text-charcoal-muted leading-relaxed">
+            <p className="text-xs xs:text-sm sm:text-base text-charcoal-muted leading-relaxed">
               Traditional solid wood doors are susceptible to moisture swelling, termites, and seasonal expansion, while hollow doors lack structural heft. WPVC doors bridge the gap by combining natural wood flour with high-grade polymers, delivering an impenetrable, high-density core adorned with artistic designer finishes.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <Droplets className="w-5 h-5 text-gold" />
@@ -49,7 +49,7 @@ export const WPVCDoorWorksPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <ShieldCheck className="w-5 h-5 text-gold" />
@@ -61,7 +61,7 @@ export const WPVCDoorWorksPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <Sparkles className="w-5 h-5 text-gold" />
@@ -73,7 +73,7 @@ export const WPVCDoorWorksPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <Layers className="w-5 h-5 text-gold" />
@@ -86,7 +86,7 @@ export const WPVCDoorWorksPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="mt-8 pt-6 border-t border-sand/30 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-charcoal-muted">
+          <div className="mt-6 sm:mt-8 pt-5 sm:pt-6 border-t border-sand/30 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 text-xs text-charcoal-muted">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-walnut flex-shrink-0" />
               <span>Custom Door Frame & Shutter Sizing</span>
@@ -108,7 +108,7 @@ export const WPVCDoorWorksPage: React.FC = () => {
             <span className="text-xs font-mono uppercase tracking-widest text-walnut font-semibold block mb-1">
               Verified Project Showcase
             </span>
-            <h3 className="text-2xl sm:text-3xl font-serif font-bold text-charcoal">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-serif font-bold text-charcoal">
               Completed WPVC Door Installations & Models
             </h3>
             <p className="text-xs sm:text-sm text-charcoal-muted mt-1">
@@ -120,23 +120,23 @@ export const WPVCDoorWorksPage: React.FC = () => {
         </div>
 
         {/* Direct Contact Banner */}
-        <div className="bg-gradient-to-br from-white via-ivory to-sand/30 rounded-3xl p-8 sm:p-10 border border-sand/50 shadow-soft flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="bg-gradient-to-br from-white via-ivory to-sand/30 rounded-2xl sm:rounded-3xl p-5 sm:p-10 border border-sand/50 shadow-soft flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-2 max-w-xl">
             <span className="text-xs font-mono uppercase tracking-widest text-walnut font-semibold">
               Direct Craftsman Consultation
             </span>
-            <h3 className="text-2xl font-serif font-bold text-charcoal">
+            <h3 className="text-xl xs:text-2xl font-serif font-bold text-charcoal">
               Require Custom WPVC Doors for Your Home?
             </h3>
-            <p className="text-sm text-charcoal-muted leading-relaxed">
+            <p className="text-xs xs:text-sm text-charcoal-muted leading-relaxed">
               Discuss door frame measurements, catalogue designs (e.g. RK 027 chevron, RK 047 slate & timber, RK 015 teak & teal, RK 033, RK 036), and custom on-site installation directly with proprietor <strong>{BRAND_CONFIG.ownerName}</strong>.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto">
             <a
               href={`tel:${BRAND_CONFIG.contact.phone}`}
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-walnut text-ivory text-sm font-semibold hover:bg-walnut-600 transition-colors shadow-sm"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3.5 min-h-[48px] rounded-xl bg-walnut text-ivory text-sm font-semibold hover:bg-walnut-600 active:scale-[0.99] transition-all shadow-sm"
             >
               <Phone className="w-4 h-4 text-gold" />
               <span>Call +91 {BRAND_CONFIG.contact.phone}</span>
@@ -146,7 +146,7 @@ export const WPVCDoorWorksPage: React.FC = () => {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-white border border-sand hover:border-walnut text-charcoal text-sm font-semibold hover:bg-sand/20 transition-colors shadow-xs"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3.5 min-h-[48px] rounded-xl bg-white border border-sand hover:border-walnut text-charcoal text-sm font-semibold hover:bg-sand/20 active:scale-[0.99] transition-all shadow-xs"
             >
               <MessageSquare className="w-4 h-4 text-walnut" />
               <span>WhatsApp Design Enquiry</span>

@@ -48,10 +48,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
           </p>
 
           {/* Editorial Quick Actions */}
-          <div className="flex flex-wrap items-center gap-3 pt-2">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-2">
             <a
               href={`tel:${BRAND_CONFIG.contact.phone}`}
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-walnut text-ivory text-sm font-semibold hover:bg-walnut-600 active:scale-95 transition-all shadow-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-walnut text-ivory text-sm font-semibold hover:bg-walnut-600 active:scale-95 transition-all shadow-sm min-h-[48px]"
             >
               <Phone className="w-4 h-4 text-gold" />
               <span>Call +91 {BRAND_CONFIG.contact.phone}</span>
@@ -61,9 +61,9 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white border border-sand hover:border-walnut text-charcoal text-sm font-semibold hover:bg-sand/15 active:scale-95 transition-all shadow-xs"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white border border-sand hover:border-walnut text-charcoal text-sm font-semibold hover:bg-sand/15 active:scale-95 transition-all shadow-xs min-h-[48px]"
             >
-              <MessageSquare className="w-4 h-4 text-walnut" />
+              <MessageSquare className="w-4 h-4 text-emerald-600" />
               <span>WhatsApp Directly</span>
             </a>
           </div>
@@ -88,11 +88,15 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
             - Transparent Estimates bottom box
            ========================================================================= */}
         <div className="lg:col-span-6 w-full">
-          <div className="bg-white rounded-3xl p-6 sm:p-10 border border-sand/40 shadow-soft">
+          <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-10 border border-sand/40 shadow-soft">
             {/* Brand Header */}
-            <div className="flex items-center gap-3.5 mb-8 pb-6 border-b border-sand/30">
-              <div className="w-12 h-12 rounded-2xl bg-walnut text-ivory flex items-center justify-center font-serif font-black text-xl border border-sand/40 shadow-sm flex-shrink-0">
-                S
+            <div className="flex items-center gap-3.5 mb-6 sm:mb-8 pb-5 sm:pb-6 border-b border-sand/30">
+              <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                <img
+                  src="/images/brand/s-logo.png"
+                  alt="Sanjay Interior Works Logo"
+                  className="w-full h-full object-contain filter drop-shadow-xs"
+                />
               </div>
               <div>
                 <h3 className="font-serif font-bold text-xl text-charcoal">

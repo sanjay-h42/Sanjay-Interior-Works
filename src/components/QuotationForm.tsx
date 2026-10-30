@@ -118,7 +118,7 @@ export const QuotationForm: React.FC<QuotationFormProps> = ({
   return (
     <div
       id="quote-form-section"
-      className={`bg-white rounded-3xl p-6 sm:p-10 border border-sand/50 shadow-medium ${className}`}
+      className={`bg-white rounded-2xl sm:rounded-3xl p-4 xs:p-6 sm:p-10 border border-sand/50 shadow-medium ${className}`}
     >
       <div className="max-w-2xl mb-8">
         <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sand/20 border border-sand/40 text-walnut text-xs font-semibold mb-3">

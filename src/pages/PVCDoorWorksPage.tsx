@@ -25,24 +25,24 @@ export const PVCDoorWorksPage: React.FC = () => {
         description="Engineered for 100% moisture resistance, hygiene, and lasting durability. Choose from practical solid and louvered PVC doors or elevate your bathroom and washroom spaces with our vibrant 3D Digital Picture PVC Doors collection."
       />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-14">
+      <section className="max-w-7xl mx-auto px-3.5 xs:px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-14">
         {/* Quick Nav Anchors */}
-        <div className="flex flex-wrap items-center gap-3">
+        <div className="flex items-center gap-2.5 overflow-x-auto no-scrollbar -mx-3.5 px-3.5 sm:mx-0 sm:px-0 pb-1">
           <a
             href="#standard-doors"
-            className="px-4 py-2 rounded-xl bg-sand/30 hover:bg-sand/50 text-walnut font-semibold text-xs transition-colors"
+            className="whitespace-nowrap flex-shrink-0 px-3.5 py-2 min-h-[44px] inline-flex items-center rounded-xl bg-sand/30 hover:bg-sand/50 text-walnut font-semibold text-xs transition-colors"
           >
             Overview & Core Benefits
           </a>
           <a
             href="#standard-doors-gallery"
-            className="px-4 py-2 rounded-xl bg-sand/30 hover:bg-sand/50 text-walnut font-semibold text-xs transition-colors"
+            className="whitespace-nowrap flex-shrink-0 px-3.5 py-2 min-h-[44px] inline-flex items-center rounded-xl bg-sand/30 hover:bg-sand/50 text-walnut font-semibold text-xs transition-colors"
           >
             Standard PVC Doors ({standardProjects.length})
           </a>
           <a
             href="#picture-doors"
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-walnut text-ivory font-semibold text-xs hover:bg-walnut-600 transition-colors shadow-xs"
+            className="whitespace-nowrap flex-shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 min-h-[44px] rounded-xl bg-walnut text-ivory font-semibold text-xs hover:bg-walnut-600 transition-colors shadow-xs"
           >
             <Sparkles className="w-3.5 h-3.5 text-gold" />
             <span>Picture PVC Doors ({pictureDoors.length})</span>
@@ -50,21 +50,21 @@ export const PVCDoorWorksPage: React.FC = () => {
         </div>
 
         {/* 1. Core PVC Door Benefits */}
-        <div id="standard-doors" className="scroll-mt-24 bg-white rounded-3xl p-6 sm:p-10 border border-sand/40 shadow-soft">
-          <div className="max-w-3xl mb-8">
+        <div id="standard-doors" className="scroll-mt-24 bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-10 border border-sand/40 shadow-soft">
+          <div className="max-w-3xl mb-6 sm:mb-8">
             <span className="text-xs font-mono uppercase tracking-widest text-walnut font-semibold block mb-2">
               Waterproof & Termite-Proof Construction
             </span>
-            <h2 className="text-2xl sm:text-3xl font-serif font-bold text-charcoal mb-3">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl font-serif font-bold text-charcoal mb-3">
               Built for High Moisture & Daily Washroom Use
             </h2>
-            <p className="text-sm sm:text-base text-charcoal-muted leading-relaxed">
+            <p className="text-xs xs:text-sm sm:text-base text-charcoal-muted leading-relaxed">
               Standard wooden doors quickly absorb steam and moisture, causing warping, fungus, and rotting in bathrooms and utility balconies. Our PVC doors are manufactured from virgin-grade polymer sheets, remaining entirely impervious to direct water spray, humidity, and insect attack.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <Droplets className="w-5 h-5 text-gold" />
@@ -76,7 +76,7 @@ export const PVCDoorWorksPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <Shield className="w-5 h-5 text-gold" />
@@ -88,7 +88,7 @@ export const PVCDoorWorksPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <Wind className="w-5 h-5 text-gold" />
@@ -100,7 +100,7 @@ export const PVCDoorWorksPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
+            <div className="p-4 sm:p-5 rounded-2xl bg-ivory/60 border border-sand/40 flex flex-col justify-between">
               <div>
                 <div className="w-10 h-10 rounded-xl bg-walnut text-ivory flex items-center justify-center mb-3 shadow-xs">
                   <CheckCircle2 className="w-5 h-5 text-gold" />
@@ -229,23 +229,23 @@ export const PVCDoorWorksPage: React.FC = () => {
         </div>
 
         {/* Direct Consultation Callout */}
-        <div className="bg-white rounded-3xl p-8 sm:p-10 border border-sand/40 shadow-soft flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-10 border border-sand/40 shadow-soft flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-2 max-w-xl">
             <span className="text-xs font-mono uppercase tracking-widest text-walnut font-semibold">
               Measurement & Frame Fitting
             </span>
-            <h3 className="text-2xl font-serif font-bold text-charcoal">
+            <h3 className="text-xl xs:text-2xl font-serif font-bold text-charcoal">
               Order Custom-Fitted Picture PVC Doors
             </h3>
-            <p className="text-sm text-charcoal-muted leading-relaxed">
+            <p className="text-xs xs:text-sm text-charcoal-muted leading-relaxed">
               Proprietor <strong>{BRAND_CONFIG.ownerName}</strong> conducts on-site measurement verifications to ensure millimeter-accurate frame installation, secure latch fittings, and clean edge alignment.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full sm:w-auto">
             <a
               href={`tel:${BRAND_CONFIG.contact.phone}`}
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-walnut text-ivory text-sm font-semibold hover:bg-walnut-600 transition-colors shadow-sm"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3.5 min-h-[48px] rounded-xl bg-walnut text-ivory text-sm font-semibold hover:bg-walnut-600 active:scale-[0.99] transition-all shadow-sm"
             >
               <Phone className="w-4 h-4 text-gold" />
               <span>Call +91 {BRAND_CONFIG.contact.phone}</span>
@@ -255,7 +255,7 @@ export const PVCDoorWorksPage: React.FC = () => {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-ivory border border-sand hover:border-walnut text-charcoal text-sm font-semibold hover:bg-sand/20 transition-colors shadow-xs"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3.5 min-h-[48px] rounded-xl bg-ivory border border-sand hover:border-walnut text-charcoal text-sm font-semibold hover:bg-sand/20 active:scale-[0.99] transition-all shadow-xs"
             >
               <MessageSquare className="w-4 h-4 text-walnut" />
               <span>WhatsApp Design Enquiry</span>

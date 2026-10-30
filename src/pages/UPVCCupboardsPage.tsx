@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { PageHeader } from '../components/PageHeader';
 import { GalleryGrid } from '../components/GalleryGrid';
 import { getProjectsByCategory } from '../data/works';
-import { ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 
 export const UPVCCupboardsPage: React.FC = () => {
   const projects = getProjectsByCategory('cupboards-upvc');
@@ -18,30 +18,59 @@ export const UPVCCupboardsPage: React.FC = () => {
         badge="Zero Maintenance"
         title="UPVC Cupboard Works"
         subtitle="100% Waterproof. Termite-Proof. Modern Utility."
-        description="UPVC cupboard systems provide the highest level of moisture resistance and hygienic storage. Engineered with unplasticized polyvinyl profiles, UPVC will never warp, corrode, or harbor pests, making it ideal for utility spaces, coastal zones, and kitchens."
+        description="UPVC cupboard systems provide the highest level of moisture resistance and hygienic storage. Engineered with unplasticized polyvinyl profiles, UPVC will never warp, corrode, or harbor pests, making it ideal for utility spaces, coastal zones, and kitchens. PVC and UPVC cupboard price starts from ₹250 to ₹500."
       />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="max-w-7xl mx-auto px-3.5 xs:px-4 sm:px-6 lg:px-8">
+        {/* Back Link */}
         <div className="mb-6">
           <Link
             to="/cupboard-works"
-            className="inline-flex items-center gap-2 text-sm font-semibold text-walnut hover:text-charcoal transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-walnut hover:text-charcoal transition-colors min-h-[44px]"
           >
             <ArrowLeft className="w-4 h-4 text-gold" />
             <span>Back to All Cupboard Categories</span>
           </Link>
         </div>
 
+        {/* Catchy & Good Looking Pricing Display Card */}
+        <div className="mb-8 p-5 sm:p-6 rounded-2xl bg-white border-2 border-gold/60 shadow-medium flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3.5">
+            <div className="w-12 h-12 rounded-xl bg-walnut text-gold flex items-center justify-center flex-shrink-0 font-serif font-black text-2xl border border-gold/40">
+              ₹
+            </div>
+            <div>
+              <span className="text-[10px] font-bold uppercase tracking-wider text-walnut bg-gold/25 px-2 py-0.5 rounded-md inline-block mb-1">
+                Guaranteed Material Price
+              </span>
+              <h2 className="text-lg sm:text-xl font-serif font-black text-charcoal">
+                UPVC Cupboards
+              </h2>
+              <p className="text-xs sm:text-sm text-charcoal-muted mt-0.5">
+                100% waterproof, termite-proof, zero-maintenance storage.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center sm:text-right flex-shrink-0 bg-sand/20 border border-sand/60 px-4 py-2.5 rounded-xl w-full sm:w-auto">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-charcoal-muted block">Price Starts From</span>
+            <span className="text-xl sm:text-2xl font-black text-walnut">
+              ₹250 <span className="text-xs font-semibold text-charcoal-muted">to</span> ₹500
+            </span>
+            <span className="text-xs font-semibold text-walnut/70 block mt-0.5">per sq.ft • Complete Fitting</span>
+          </div>
+        </div>
+
         {/* Material Characteristics Bar */}
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-sand/40 shadow-soft mb-10">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-8 border border-sand/40 shadow-soft mb-8 sm:mb-10">
           <h2 className="text-xl sm:text-2xl font-serif font-bold text-walnut mb-3">
             Key Advantages of UPVC Cupboards
           </h2>
-          <p className="text-sm text-charcoal-muted leading-relaxed mb-6">
+          <p className="text-xs xs:text-sm text-charcoal-muted leading-relaxed mb-6">
             If you need reliable, washable, and worry-free storage in areas exposed to humidity or frequent water contact, UPVC is the optimal material choice.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 pt-2">
             <div className="p-4 rounded-2xl bg-ivory/50 border border-sand/30">
               <span className="font-semibold text-xs text-walnut uppercase tracking-wider block mb-1">Water & Humidity</span>
               <p className="text-xs text-charcoal-muted">100% waterproof; unaffected by steam, condensation, or water seepage.</p>
