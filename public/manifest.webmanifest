@@ -1,0 +1,20 @@
+{
+  "name": "Sanjay Interior Works",
+  "short_name": "Sanjay Interiors",
+  "description": "Crafting beauty into every corner — Cupboard Works, PVC Doors, WPVC Doors, Aluminium Works, and Netlon Mesh.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FBF8F3",
+  "theme_color": "#75543E",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
